@@ -5,7 +5,9 @@ class Hash:
         self.state = ['E'] * m # E for Empty, A for active, D for deleted
         self.R = R
 
-
+    def set_R(R):
+        self.R = R
+        
     def __key_to_int(self, key):
         l = []
         for c in key:
