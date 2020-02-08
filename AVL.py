@@ -1,8 +1,9 @@
 class AVLNode:
-    def __init__(self, value = 0):
+    def __init__(self, value=0):
         self.data = value
         self.left = AVL()
         self.right = AVL()
+
 
 class AVL:
     def __init__(self):
@@ -20,11 +21,12 @@ class AVL:
 
     def rotate_left(self):
         return
+
     def rotate_right(self):
         return
+
     def balance(self):
         return
-
 
     def isempty(self):
         if self.root is None:
