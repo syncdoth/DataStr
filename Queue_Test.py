@@ -1,11 +1,13 @@
 import unittest
 
 import BST, Stack, Queue, Node
+# TODO(choisehyun): make test cases for others too.
 
 
 class CustomTests(unittest.TestCase):
-
+    """Tests of the custom datastrs."""
     def test_runs(self):
+        """basics test runs."""
         t = BST()
         t.insert(5)
         t.insert(4)
